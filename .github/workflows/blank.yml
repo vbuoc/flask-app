@@ -43,4 +43,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: <логин-на-docker-hub>/<репозиторий-на-docker-hub>:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/<репозиторий-на-docker-hub>:latest
