@@ -41,5 +41,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: vbuoc/flask-app:v1
+          repository: vbuoc/flask-app
           tag_with_ref: true
